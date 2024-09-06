@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <h1 id="title">Pet owner survey</h1>
+    <p id="description">Let's get to know each other!</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Enter your name:
+            <input class="enter-info" type="text" id="name" required placeholder='Joanna'></label>
+        <label id="email-label" for="email">Enter your email:
+            <input class="enter-info" type="email" id="email" required placeholder='abc@gmail.com'></label>
+
+        <label class="enter-info" id="number-label" for="number">Enter number of pets: <input type="number" id="number"
+                min=0 max=9 placeholder='1'> </label>
+
+        <label for="dropdown">What type of home do you live in:
+            <select class=".enter-info" id="dropdown">
+                <option value=' '>(select one)</option>
+                <option value='1'>Apartment</option>
+                <option value='2'>Home</option>
+            </select>
+        </label>
+
+        <!-- Checkboxes-->
+        <fieldset>
+            <p>Choose type of animal you own: </p>
+
+            <label for="dog">Dog
+                <input class="inline" type="checkbox" id="dog" value="dog" name="pet-type" checked>
+            </label>
+            <label for="cat">Cat
+                <input class="inline" type="checkbox" id="cat" value="cat" name="pet-type">
+            </label>
+            <label for="hamster">Hamster
+                <input class="inline" type="checkbox" id="hamster" value="hamster" name="pet-type">
+            </label>
+            <label for="guineapig">Guinea Pig
+                <input class="inline" type="checkbox" id="guineapig" value="guineapig" name="pet-type">
+            </label>
+
+            <!--Radios-->
+
+            <p>Is your pet purebred or mixed: </p>
+
+            <label for="purebred">Purebred
+                <input name="bred" type="radio" id="purebred" value="purebred"> </label>
+            <label for="mixed">Mixed
+                <input name="bred" type="radio" id="mixed" value="second-checkbox"></label>
+        </fieldset>
+        <label for="bio">Please share your comment:
+            <textarea id="bio" rows='3' cols="30" placeholder=To my mind...> </textarea>
+
+            <input type="submit" value="submit">
+
+
+    </form>
+
+</body>
+
+</html>

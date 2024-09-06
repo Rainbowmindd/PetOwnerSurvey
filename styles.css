@@ -1,0 +1,73 @@
+h1,
+p {
+	margin: 1em auto;
+	text-align: center;
+}
+
+body {
+	font-size: 16px;
+	height: 100vw;
+	margin: 0;
+
+	background-color: #b0c4b1;
+	color: #292a2b;
+	font-family: Tahoma;
+	font-size: 16px;
+}
+form {
+	width: 60vw;
+	max-width: 500px;
+	min-width: 400px;
+	margin: 0 auto;
+	padding-bottom: 2em;
+}
+label {
+	display: block;
+	margin: 0.5rem 0;
+}
+input[type='text'],
+input[type='email'],
+input[type='number'],
+textarea {
+	margin: 10px 0 0 0;
+	width: 100%;
+	min-height: 2em;
+	background-color: #f7e1d7;
+	border: 1px solid #f7e1d7;
+	color: #715257;
+}
+select {
+	margin: 10px 0 0 0;
+	width: 101%;
+	min-height: 2em;
+	background-color: #f7e1d7;
+	border: 1px solid #f7e1d7;
+	color: #715257;
+}
+input[type='checkbox'],
+input[type='radio'] {
+	width: auto;
+	min-height: auto;
+	margin-right: 10px; /* Adds space between input and label text */
+}
+input[type='submit'] {
+	display: block;
+	width: 60%;
+	margin: 1em auto;
+	height: 2em;
+	font-size: 1.1rem;
+	background-color: #edafb8;
+	border: 1px solid #edafb8;
+	min-width: 300px;
+}
+fieldset {
+	background-color: #edafb8;
+	border: 1px solid #edafb8;
+	display: inline;
+	width: 95%;
+	margin: auto;
+}
+fieldset p {
+	text-align: left;
+	margin-top: 0;
+}
